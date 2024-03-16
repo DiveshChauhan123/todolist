@@ -1,42 +1,65 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.write-your-todo {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: bold;
+  margin: 0.5rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.add-to-do {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.to-do-input {
+  border: 3px solid #000;
+  border-radius: 5px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.add-to-tasks {
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  background-color: aqua;
+  font-weight: bold;
 }
 
-.card {
-  padding: 2em;
+button:hover {
+  background-color: pink;
 }
 
-.read-the-docs {
-  color: #888;
+.your-to-do {
+  display: flex;
+  justify-content: center;
+}
+
+.button-edit {
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.button-delete {
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  background-color: aqua;
+  font-weight: bold;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+
+.showdata {
+  width: 25%;
+}
+
+.heading {
+  font-size: larger;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
